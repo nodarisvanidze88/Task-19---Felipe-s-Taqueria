@@ -15,6 +15,6 @@ while True:
     user = input(f"Select from folowing \n{items} or enter stop: ").title()
     if user in menu:
         total = total + menu[user]
-        print(f"${total}")
+        print(f"${total:.2f}")
     if user == "Stop":
         break
